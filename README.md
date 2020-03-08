@@ -2,7 +2,7 @@
   <p>test</p>
   <head>
     <meta charset="utf-8">
-    <title></title> </head>
+  </head>
   <body>
     <?php
       $dayofweek = date("w");
