@@ -1,4 +1,10 @@
-   <?php
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <?php
       $dayofweek = date("w");
       switch ($dayofweek) {
         case 1:
@@ -27,10 +33,13 @@
           break;
         case 0:
           echo "It is Sunday!";
-          echo "body {background-color: #FFB6C1;}"
+          echo "body {background-color: #FF;}"
           break;
         default:
           echo "Error!";
           break;
       }
     ?>
+  </body>
+</html>
+
