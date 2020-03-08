@@ -1,5 +1,5 @@
-<p>
-  <?php
+<script language="php">
+  echo "hello world";
   $dayofweek = date("w");
   switch ($dayofweek) {
     case 1:
@@ -34,4 +34,4 @@
       echo "Error!";
       break;
     }?>
-</p>
+</script>
