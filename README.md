@@ -1,13 +1,4 @@
-<script language="php">
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <?php
-      <p>test</p>
+<?php
       echo "hello World";
       $dayofweek = date("w");
       switch ($dayofweek) {
@@ -43,8 +34,4 @@
           echo "Error!";
           break;
       }
-    ?>
-  </body>
-</html>
-
-</script>
+      ?>
