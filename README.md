@@ -1,5 +1,5 @@
-   <?php
-      $dayofweek = date("w");
+<?php
+   $dayofweek = date("w");
       switch ($dayofweek) {
         case 1:
           echo "It is Monday!";
