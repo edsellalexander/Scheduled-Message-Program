@@ -32,3 +32,5 @@
         default:
           echo "Error!";
           break;
+      }
+    ?>
