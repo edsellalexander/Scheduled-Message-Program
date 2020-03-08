@@ -1,10 +1,4 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <?php
+   <?php
       $dayofweek = date("w");
       switch ($dayofweek) {
         case 1:
@@ -38,7 +32,3 @@
         default:
           echo "Error!";
           break;
-      }
-    ?>
-  </body>
-</html>
